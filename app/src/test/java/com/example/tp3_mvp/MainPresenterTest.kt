@@ -24,7 +24,7 @@ class MainPresenterTest {
     @Test
     fun WhenTextIsInsertedAToastBeDisplayed() {
         every { mainView.showText("Hello") }
-        mainPresenter.onButtonPressed("Hello")
+        mainPresenter.onButtonPressed()
         verify { mainView.showText("Hello") }
     }
 }

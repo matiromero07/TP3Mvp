@@ -7,6 +7,10 @@ android {
     namespace 'com.example.tp3_mvp'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.tp3_mvp"
         minSdk 24
